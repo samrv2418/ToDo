@@ -6,6 +6,7 @@ body{
   color: white;
   width: 50%;
   margin: 10px auto;
+  font-family: sans-serif;
 }
 .tasks-wrapper
 {
@@ -35,14 +36,14 @@ body{
   font-weight: 900;
   display: flex;
   justify-content: center;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 .task-title
 {
   font-weight: 900;
   font-size: 20px;
-  font-family: cursive;
+  /* font-family: cursive; */
   flex: 2;
   text-align: start;
 }
@@ -74,10 +75,16 @@ body{
 
 }
 
-@media only screen and (max-width: 500px)
+@media only screen and (max-width: 580px)
 {
   .App {
     width: 90%;
+  }
+  .update-input
+  {
+    flex: revert !important;
+    width: 100%;
+    margin-bottom: 15px;
   }
 
 }
