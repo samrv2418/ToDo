@@ -8,21 +8,7 @@ import UpdateTaskForm from './components/UpdateTaskForm'
 function App() {
 
   const [toDo,setToDo]=useState([
-    {
-      id:3,
-      title:'Task 3',
-      status:false,
-    },
-    {
-      id:1,
-      title:'Task 1',
-      status:false,
-    },
-    {
-      id:2,
-      title:'Task 2',
-      status:false,
-    }
+    
   ])
 
 //----------- temporary states----------------
